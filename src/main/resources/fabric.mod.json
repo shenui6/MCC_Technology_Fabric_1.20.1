@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "mcctech",
+	"version": "${version}",
+	"name": "MCC Technology",
+	"description": "A tech mod with cool decorations and scientific items!",
+	"authors": [
+		"shenshui6"
+	],
+	"contact": {
+		"homepage": "https://mcctech.mcmod.shenui.cn/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mcctech/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cn.shenui.mcctech.MCCTechnology"
+		],
+		"fabric-datagen": [
+			"cn.shenui.mcctech.MCCTechnologyDataGenerator"
+		]
+	},
+	"mixins": [
+		"mcctech.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
