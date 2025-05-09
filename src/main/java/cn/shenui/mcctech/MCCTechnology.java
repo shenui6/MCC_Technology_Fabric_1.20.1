@@ -1,5 +1,6 @@
 package cn.shenui.mcctech;
 
+import cn.shenui.mcctech.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,5 +21,7 @@ public class MCCTechnology implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		ModBlocks.registerModBlocks();
+		ModBlocks.registerGroups();
 	}
 }
