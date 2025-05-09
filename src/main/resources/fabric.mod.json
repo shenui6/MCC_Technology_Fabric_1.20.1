@@ -18,6 +18,9 @@
 		"main": [
 			"cn.shenui.mcctech.MCCTechnology"
 		],
+		"client": [
+			"cn.shenui.mcctech.MCCTechnologyClient"
+		],
 		"fabric-datagen": [
 			"cn.shenui.mcctech.MCCTechnologyDataGenerator"
 		]
