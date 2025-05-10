@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://mcctech.mcmod.shenui.cn/",
-		"sources": "https://github.com/shenui6/MCC_Technology_Fabric_1.20.1/tree/master"
+		"sources": "https://github.com/shenui6/MCC_Technology_Fabric_1.20.1"
 	},
 	"license": "MIT",
 	"icon": "assets/mcctech/icon.png",
