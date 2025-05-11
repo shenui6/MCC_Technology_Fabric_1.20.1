@@ -16,6 +16,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block AC_RAIN_KR1 = register("ac_rain_kr1", new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F)));
+    public static final Block AC_RAIN_KR1_MINI = register("ac_rain_kr1_mini", new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F)));
 
     public static Block register(String id, Block block) {
         registerBlockItem(id, block);
@@ -42,11 +43,13 @@ public class ModBlocks {
                         .icon(() -> new ItemStack(ModBlocks.AC_RAIN_KR1))
                         .entries(((displayContext, entries) -> {
                             entries.add(ModBlocks.AC_RAIN_KR1);
+                            entries.add(ModBlocks.AC_RAIN_KR1_MINI);
                         })).build());
     }
 
     private static void addItemToItemGroup(FabricItemGroupEntries entries) {
         entries.add(AC_RAIN_KR1);
+        entries.add(AC_RAIN_KR1_MINI);
     }
 
     public static void registerModBlocks(){
